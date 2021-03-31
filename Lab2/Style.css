@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    font-family: Verdana;
+}
+#header-bar {
+    background-color: #232323;
+    height: 8px;
+}
+#main {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #aaa;
+}
+#header a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+#about-us {
+    display: flex;
+    font-size: 20px;
+    line-height: 30px;
+}
+#about-left {
+    
+}
+#about-right {
+
+}
+
+#circles {
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+    border-top: 1px solid #aaa;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+}
+#circle1 {
+    background-color: #63acc9;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    opacity: 0.7;
+}
+#circle1:hover {
+    opacity: 0.85;
+}
+#circle2 {
+    background-color: #63acc9;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-left: -30px;
+    opacity: 0.7;
+}
+#circle2:hover {
+    opacity: 0.85;
+}
+#circle3 {
+    background-color: #63acc9;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-left: -30px;
+    opacity: 0.7;
+}
+#circle3:hover {
+    opacity: 0.85;
+}
+#footer {
+    background-color: #232d2f;
+    background-image: url(zabek.jpg);
+    background-repeat: repeat-x;
+    margin-top: 40px;
+    height: 200px;
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+}
+#logo2{
+    margin-top: 40px; 
+}
+
+#logo{
+    margin-top: 40px; 
+}
+#main-bot {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    line-height: 30px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px; 
+
+}
+.mainbotcontent{
+    margin-left: 10px;
+    margin-right:10px;
+}
+
+.naglowek{
+    padding-bottom: 20px;
+    border-bottom: 1px solid #aaa;
+}
+
+.napis{
+    margin-top: 40%;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+.link{
+    margin-left: 28px;
+    margin-right: 28px;
+    color: #63acc9;
+}
+
+#napisnie{
+    padding-top: 20px;
+    color: #63acc9;
+    font-size: 27px;
+    text-align: center;
+}
