@@ -16,7 +16,7 @@ section {
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 5%;
+    margin-top: 2%;
     padding-top: 5px;
     padding-bottom: 5px;
 }
@@ -45,3 +45,27 @@ section {
     margin-right: auto;
     display: flex;
 }
+#tekstpod{
+    margin-top: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    color: #cbd6df;
+    font-style:arial;
+    font-size: 30px;
+}
+#tekstpodpod{
+    margin-top: 25px;
+    margin-left: 38%;
+    margin-right: 38%;
+    text-align: justify;
+    font-size: 13px;
+    line-height: 32px;
+    font-style: arial;
+}
+a{ 
+color:#819791 ;
+text-decoration: underline dotted;
+ }
