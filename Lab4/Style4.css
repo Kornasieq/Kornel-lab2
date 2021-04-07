@@ -1,0 +1,26 @@
+body
+{
+    font-family: Arial,sans-serif;
+    width: 639px;
+}
+main
+{
+background-color: #252a3a;
+width: 150px;
+height: 100%;
+font-size: 16px;
+color: white;
+}
+
+a
+{ 
+    color:white;
+    display: block;
+    padding-bottom: 30px;
+}
+#b
+{
+
+color: white;
+text-align: center;
+}
