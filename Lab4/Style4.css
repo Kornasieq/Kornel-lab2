@@ -5,22 +5,51 @@ body
 }
 main
 {
-background-color: #252a3a;
-width: 150px;
-height: 100%;
-font-size: 16px;
-color: white;
-}
-
-a
-{ 
-    color:white;
-    display: block;
-    padding-bottom: 30px;
+    background-color: #252a3a;
+    width: 350px;
+    height: 400px;
+    font-size: 16px;
+    color: white;
 }
 #b
 {
+    text-align: center;    
+}
 
-color: white;
-text-align: center;
+.btn
+{
+    cursor: pointer;
+    color: white;
+    border-radius: 20px;
+    height: 26px;
+    width: 85px;
+    border:none;
+    padding:0;
+    background-color: dodgerblue;
+    font-family: Arial;
+    font-size: 16px;
+
+}
+#c
+{
+    padding-top: 10px;
+   padding-left: 300px;
+    color: dodgerblue;
+    text-decoration: none;
+}
+#a
+{
+    padding-top:30px;
+}
+.btn2
+{
+    margin-left: 15px;
+    display: block;   
+    border-style: none;
+    padding: 5px;
+    background-color:#252a3a ;
+    color: white;
+    font-size: 16px;
+    font-family: Arial;
+    cursor: pointer;
 }
