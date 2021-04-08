@@ -34,8 +34,6 @@ main
 {
     padding-top: 10px;
    padding-left: 300px;
-    color: dodgerblue;
-    text-decoration: none;
 }
 #a
 {
@@ -49,6 +47,18 @@ main
     padding: 5px;
     background-color:#252a3a ;
     color: white;
+    font-size: 16px;
+    font-family: Arial;
+    cursor: pointer;
+}
+.btn3
+{
+    margin-left: -10px;
+    display: block;   
+    border-style:hidden;
+    padding: 5px;
+    background-color:#252a3a ;
+    color: dodgerblue;
     font-size: 16px;
     font-family: Arial;
     cursor: pointer;
