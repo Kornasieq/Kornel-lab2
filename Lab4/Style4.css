@@ -2,11 +2,12 @@ body
 {
     font-family: Arial,sans-serif;
     width: 639px;
+    margin: 0;
 }
 main
 {
     background-color: #252a3a;
-    width: 350px;
+    width: 639px;
     height: 400px;
     font-size: 16px;
     color: white;
@@ -37,7 +38,7 @@ main
 }
 #a
 {
-    padding-top:30px;
+    padding-top:10px;
 }
 .btn2
 {
@@ -53,7 +54,7 @@ main
 }
 .btn3
 {
-    margin-left: -10px;
+    margin-left: 270px;
     display: block;   
     border-style:hidden;
     padding: 5px;
@@ -62,4 +63,134 @@ main
     font-size: 16px;
     font-family: Arial;
     cursor: pointer;
+}
+#label
+{
+    margin-left: 15px;
+    width: 350px;
+    height: 400px;
+    font-size: 16px;
+    color: rgb(68, 74, 158);
+}
+.btn4
+{
+    padding: 20px;
+    margin-left: 15px;
+    display: block;   
+    border-style: none;
+    padding: 5px;
+    background-color:#252a3a ;
+    color: white;
+    font-size: 16px;
+    font-family: Arial;
+    cursor: pointer;
+    display: flex;
+}
+.square1
+{
+    background-color:yellow ;
+    width: 14px;
+    height: 14px;
+    border-radius: 4px;
+    margin-right: 10px;
+    margin-left:-20px ;
+}
+.square2
+{
+    background-color:lightskyblue ;
+    width: 14px;
+    height: 14px;
+    border-radius: 4px;
+    margin-right: 10px;
+    margin-left:-20px ;
+}
+.square3
+{
+    background-color:lime;
+    width: 14px;
+    height: 14px;
+    border-radius: 4px;
+    margin-right: 10px;
+    margin-left:-20px ;
+}
+section
+{
+    background-color: white;
+    width: 639px;
+    height: 100%;
+    font-size: 16px;
+}
+#email1
+{
+    display: flex;
+    padding-top: 12px;
+    margin-bottom: 0px;
+    border-bottom: 1px solid grey;
+}
+#email2
+{
+    border-left: 6px solid #1B98F8;
+    display: flex;
+    padding-top: 12px;
+    margin-bottom: 0px;
+    border-bottom: 1px solid grey;
+}
+#email
+{
+
+}
+.profile-pic
+{
+    width: 42px;
+    height: 42px;
+    border-radius: 3px;
+    margin-right: 8px;
+    margin-left: 18px;
+}
+.profile-pic2
+{
+    width: 42px;
+    height: 42px;
+    border-radius: 3px;
+    margin-right: 8px;
+    margin-left: 12px;
+}
+.txt
+{
+font-size: 16px;
+color: black;
+width: 350px;
+}
+.nick
+{
+    font-size: 13px;
+    color: #999;
+    text-transform: uppercase;
+    margin-top: 0px;
+}
+.title
+{
+font-size: 16px;
+color: black;
+}
+.mailtxt
+{
+
+}
+section2
+{
+    background-color: white;
+    width: 639px;
+    height: 100%;
+    font-size: 16px;
+}
+.nagtxt
+{
+    font-size: 32px;
+    color: black;
+    margin-left: 18px;
+}
+#tekst
+{
+    margin-left: 18px;
 }
