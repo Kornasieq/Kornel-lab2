@@ -170,12 +170,14 @@ width: 350px;
 }
 .title
 {
+    margin-top: -10px;
 font-size: 16px;
 color: black;
+font-weight: bold;
 }
 .mailtxt
 {
-
+margin-top: -10px;
 }
 section2
 {
