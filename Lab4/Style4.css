@@ -1,16 +1,19 @@
 body
 {
     font-family: Arial,sans-serif;
-    max-width: 639px;
     margin: 0;
 }
 main
 {
     background-color: #252a3a;
-    width: 639px;
-    height: 400px;
+    max-width: 639px;
+    height: 100%;
     font-size: 16px;
     color: white;
+}
+html
+{
+    height: 100%;
 }
 #b
 {
@@ -56,7 +59,7 @@ border-radius: 20%;
 }
 .btn3
 {
-    margin-left: 270px;
+    margin-left: 70%;
     display: block;   
     border-style:hidden;
     padding: 5px;
@@ -70,9 +73,9 @@ border-radius: 20%;
 {
     margin-left: 15px;
     width: 350px;
-    height: 400px;
     font-size: 16px;
     color: rgb(68, 74, 158);
+    padding-bottom: 30px;
 }
 .btn4
 {
@@ -121,6 +124,7 @@ section
     width: 639px;
     height: 100%;
     font-size: 16px;
+    border-right: 1px grey solid;
 }
 #email1
 {
@@ -181,7 +185,7 @@ font-weight: bold;
 {
 margin-top: -10px;
 }
-section2
+#section2
 {
     background-color: white;
     width: 639px;
@@ -210,6 +214,8 @@ section2
 .main-mail-title {
     font-size: 32px;
     color: black;
+    margin: 0;
+    margin-top: 35px;
     margin-left: 18px;
 }
 
@@ -217,25 +223,28 @@ section2
     font-size: 16px;
     color: black;
     margin-left: 18px;
+    margin-top: 0;
 }
 
 #main-mail-right {
+    height: 105px;
     margin-right: 18px;
-    width: 639px;
+    width: 100%;
     display: flex-end;
     text-align: right;
 }
 
 .button2 {
+    margin-top: 30px;
     border-radius: 20%;
     background: white;
-    border-style: none;
+    border-style: solid;
     padding-top: 10px;
     padding-bottom: 10px;
     font: 16px;
-    color: #666;
+    color: #a1a1a1;
     border-radius: 20px;
-    width: 100px;
+    width: 75px;
     height: 100%;
     cursor: pointer;
 }
@@ -255,6 +264,11 @@ section2
     margin: 16px;
     font-size: 16px;
 }
+#main-mail-left
+{
+    width: 100%
+}
+
 
 @media screen and (min-width: 639px) {
     body {
@@ -272,5 +286,12 @@ section2
     #main-mail-right {
         display: flex-end;
     }
-
+    
+    .first-button
+{
+    width: auto;
+    float: right;
+    margin-left: 5px;
 }
+}
+
