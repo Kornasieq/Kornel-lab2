@@ -1,0 +1,29 @@
+body { background-image: url(zdjecie.jpg); }
+.parent {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .div1 { grid-area: 1 / 1 / 2 / 3; }
+    .div2 { grid-area: 1 / 3 / 2 / 7; }
+    .div3 { grid-area: 2 / 1 / 7 / 7; }
+
+    .parent2 {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        }
+section{
+    background-color: white;
+}
+        .div4 { grid-area: 1 / 1 / 5 / 3; }
+        .div5 { grid-area: 1 / 3 / 5 / 5; }
+        .div6 { grid-area: 1 / 5 / 5 / 7; }
+        .div7 { grid-area: 5 / 1 / 6 / 3; }
+        .div8 { grid-area: 5 / 3 / 6 / 5; }
+        .div9 { grid-area: 5 / 5 / 6 / 7; }
