@@ -41,7 +41,7 @@ body {
   }
   
   #testbutton:after {
-    content:'___Switch to Happy Sushi Lunch!';
+    content:'Switch to Happy Sushi Lunch!';
     text-align:center;
     line-height:40px;
     font-size:18px;
