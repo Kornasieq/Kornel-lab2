@@ -1,26 +1,41 @@
 body
 {
-  margin-left: 0px;
-  margin-top: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+}
+header
+{
+  max-height: 323.55px;
   margin-bottom: 0px;
-  margin-right: 0px;
-  width: 100%;
-  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color:whitesmoke;
+}
+section
+{
+    background-color: black;
+}
+#nav
+{
+    height: 63px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: right;
+  align-items: center;
 }
 #menu
 {
   list-style: none;
-  position: absolute;
-  top: 1px;
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
   align-items: center;
-  margin-left: 370px;
 }
 #menu a
 {
-  color:black;
+  color: white;
   text-decoration: none;
   padding: 10px;
   
@@ -29,15 +44,15 @@ header
 {
   max-height: 323.55px;
   margin-bottom: 0px;
-  background-color:whitesmoke;
+  background-color:rgb(0, 0, 0);
 }
 header img
 {
-  height:50%;
+  height:100%;
   width: 100%;
   -webkit-box-shadow: 0px 0px 70px 8px rgba(167, 167, 167);
   -moz-box-shadow: 0px 0px 70px 8px rgba(167, 167, 167);
-  box-shadow: 0px 0px 70px 8px rgb(167, 167, 167);
+  box-shadow: 0px 0px 70px 8px rgb(63, 63, 63);
 }
 .heating
 {
@@ -47,9 +62,9 @@ overflow: hidden;
 h2
 {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    padding-top: 120px;
+    padding-top: 50px;
     text-align: center;
-    color: rgb(143, 197, 252);
+    color: rgb(0, 0, 0);
 }
 p
 {
@@ -66,11 +81,7 @@ ul
     list-style:none;
     justify-content: center;
 }
-li
-{
-    box-sizing: border-box;
-    padding: 20px;
-}
+
 img
 {
     max-width: 100%;
@@ -86,11 +97,13 @@ img
 }
 .heating2
 {
-    background-color: rgb(167, 167, 167);
+    border-top: 5px solid rgb(77, 77, 77);
+    border-bottom: 5px solid rgb(51, 51, 51);
+    background-color: rgb(227,227,227);
     height: 400px;
-    -webkit-box-shadow: 0px 0px 70px 8px rgba(167, 167, 167);
-    -moz-box-shadow: 0px 0px 70px 8px rgba(167, 167, 167);
-    box-shadow: 0px 0px 70px 8px rgb(167, 167, 167);
+    -webkit-box-shadow: 0px 0px 70px 8px rgb(255, 0, 0);
+    -moz-box-shadow: 0px 0px 70px 8px rgb(255, 0, 0);
+    box-shadow: 0px 0px 70px 8px rgb(63, 63, 63);
 }
 #sensor
 {
@@ -107,55 +120,54 @@ img
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   text-align: center;
   font-size: 20px;
-  margin-left: 50px;
-  margin-right: 50px;
+margin: 0px auto;
   padding-top: 15px;
   padding-bottom: 30px;
 }
 #design
 {
-    display: block;
-     border-top: 2px solid rgb(179, 179, 179);
-    height: 500px;
-    background-image: url(beton.jpg);
+    display: flex;
+    height: 400px;
+    background-image: url(gniazdkooo.png);
     -webkit-box-shadow: 0px 0px 70px 8px rgba(167, 167, 167);
     -moz-box-shadow: 0px 0px 70px 8px rgba(167, 167, 167);
-    box-shadow: 0px 0px 70px 8px rgb(167, 167, 167);
+    box-shadow: 0px 0px 70px 8px rgb(63, 63, 63);
 }
 #designphoto
 {
-    padding-top: 10px;
-    align-items: center;
+    border-top: 5px solid rgb(49, 49, 49);
+    padding-top: 70px;
+    padding-left: 40px;
+    border-bottom: 5px solid rgb(77, 77, 77);
 }
 #textphoto
 {
-    color: black;
+    color: whitesmoke;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 35px;
-    padding-top: 20px;
-    padding-left: 20px;
-    text-align: center;
+   text-align: center;
 }
 #designcontrol
 {
+    border-top: 5px solid rgb(49, 49, 49);
     display: block;
+    border-bottom: 5px solid rgb(77, 77, 77);
 }
 #txtcontrol
 {
-    color: black;
+    color: white;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    margin-left: 40px;
-    margin-right: 40px;
     text-align: center;
-    padding-top: 20px;
-    font-weight: 600;
-    font-size: 20px;
+
 }
 .easy
 {
-    height: 400px;
+    height: 535px;
     display: block;
     background-color: rgb(243, 243, 243);
+    -webkit-box-shadow: 0px 0px 70px 8px rgba(167, 167, 167);
+    -moz-box-shadow: 0px 0px 70px 8px rgba(167, 167, 167);
+    box-shadow: 0px 0px 70px 8px rgb(82, 82, 82);
     
 }
 #txteasy
@@ -177,76 +189,92 @@ img
     padding-top: 20px;
     
 }
+#txt2
+{
+    color: rgb(224, 224, 224);
+}
 #photoins
 {
     padding-top: 20px;
     border-top: black;
-    background-color: whitesmoke
 }
 #stopka
 {
-    padding: ;
+    padding-top: 200px;
   font-size: 15px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   text-align: center;
   color: whitesmoke;
   width: 100%;
-  height: 50px;
+  height: 150px;
   background-color: black;
-  margin-top:  130px;
-}
-#photo
-{
-
-    align-items: center;
 }
 @media screen and (min-width: 769px) {
     body
     {
-        width: 100%;
+     width: 100%;
     }
-  .heating
+    .heating2
+    {
+        background-color: rgb(224, 224, 224);
+        height: 400px;
+        -webkit-box-shadow: 0px 0px 70px 8px rgba(167, 167, 167);
+        -moz-box-shadow: 0px 0px 70px 8px rgb(255, 66, 66);
+        box-shadow: 0px 0px 70px 8px rgb(63, 63, 63);
+    }
+    #sensor
+    {
+        padding-top: 20px;
+        color: black;
+        font-weight: 600;
+        font-size: 25px;
+        max-height: 209px;
+        font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        text-align: center;
+    }
+    #photo
 {
-    display: flex;
+        justify-content: center;
+        margin:0px auto;
+        width: 600px;
+        padding: 0px;
 }
-#hz1
+
+#photoins
 {
-    padding-top: 400px;
-    padding-left: 40px;
-    max-width: 200px;
+    justify-content: center;
+        margin:0px auto;
+        width: 639px;
+        padding: 0px;
 }
-#menuw
+#stopka
 {
+    padding-top: 170px;
+  font-size: 15px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: center;
+  color: whitesmoke;
+  width: 100%;
+  height: 150px;
+  background-color: black;
+  -webkit-box-shadow: 0px 0px 70px 8px rgba(167, 167, 167);
+  -moz-box-shadow: 0px 0px 70px 8px rgba(167, 167, 167);
+  box-shadow: 0px 0px 70px 8px rgb(63, 63, 63);
+}
+.easy
+{
+    height: 585px;
     display: block;
+    background-color: rgb(245, 245, 245);
+    
 }
-#zwave
+.heating3
 {
-    padding-top: 414px;
-    padding-left: 40px;
-    color: rgb(37, 37, 37);
-    font-weight: 600;
-    font-size: 25px;
-    max-height: 209px;
+    justify-content: center;
+    margin:0px auto;
+    width: 562px;
+    padding: 0px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
-#txtw
-{
-    padding-top: 5px;
-    padding-left: 40px;
-    color: rgb(146, 146, 146);
-    font-weight: 200;
-    font-size: 15px;
-    font-weight: 400;
 }
-#znaczki
-{
-    display: flex;
-    padding-left: 100px;
-    padding-top: 25px;
-    padding-bottom:40px ;
-}
-#hhh
-{
-padding-right: 10px;
-}
-  } 
-  
