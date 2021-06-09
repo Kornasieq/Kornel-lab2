@@ -26,6 +26,10 @@ section
   justify-content: right;
   align-items: center;
 }
+#menu a:hover
+{
+    border-bottom: 2px solid rgb(229, 249, 255);
+}
 #menu
 {
   list-style: none;
@@ -123,6 +127,10 @@ img
 margin: 0px auto;
   padding-top: 15px;
   padding-bottom: 30px;
+}
+#rynek
+{
+    text-align: center;
 }
 #design
 {

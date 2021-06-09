@@ -23,6 +23,10 @@ header img
   justify-content: right;
   align-items: center;
 }
+#menu a:hover
+{
+    border-bottom: 2px solid rgb(229, 249, 255);
+}
 #menu
 {
   list-style: none;

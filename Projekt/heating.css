@@ -40,6 +40,15 @@ section
   padding: 10px;
   
 }
+#rynek
+{
+    text-align: center;
+}
+
+#menu a:hover
+{
+    border-bottom: 2px solid rgb(229, 249, 255);
+}
 header
 {
   max-height: 323.55px;
@@ -81,7 +90,6 @@ ul
     list-style:none;
     justify-content: center;
 }
-
 img
 {
     max-width: 100%;
