@@ -156,10 +156,8 @@ margin: 0px auto;
 }
 #designcontrol
 {
-    display: flex;
     color: whitesmoke;
     margin:0 auto;
-    width: 700px;
     padding: 70px;
 }
 #txtcontrol

@@ -134,21 +134,13 @@ margin: 0px auto;
 }
 #design
 {
-    display: flex;
+    align-items: center;
+    text-align: center;
     height: 400px;
     background-image: url(lasek.png);
     -webkit-box-shadow: 0px 0px 70px 8px rgba(167, 167, 167);
     -moz-box-shadow: 0px 0px 70px 8px rgba(167, 167, 167);
     box-shadow: 0px 0px 70px 8px rgb(63, 63, 63);
-}
-h4
-{
-    color: whitesmoke;
-    text-align: center;
-}
-.lorem
-{
-    color: whitesmoke;
 }
 #designphoto
 {
@@ -164,10 +156,8 @@ h4
 }
 #designcontrol
 {
-    display: flex;
     color: whitesmoke;
     margin:0 auto;
-    width: 700px;
     padding: 70px;
 }
 #txtcontrol
