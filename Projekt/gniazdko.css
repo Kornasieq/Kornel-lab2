@@ -134,7 +134,8 @@ margin: 0px auto;
 }
 #design
 {
-    display: flex;
+    text-align: center;
+    align-items: center;
     height: 400px;
     background-image: url(gniazdkooo.png);
     -webkit-box-shadow: 0px 0px 70px 8px rgba(167, 167, 167);
@@ -144,8 +145,6 @@ margin: 0px auto;
 #designphoto
 {
     border-top: 5px solid rgb(49, 49, 49);
-    padding-top: 70px;
-    padding-left: 40px;
     border-bottom: 5px solid rgb(77, 77, 77);
 }
 #textphoto
@@ -157,9 +156,11 @@ margin: 0px auto;
 }
 #designcontrol
 {
-    border-top: 5px solid rgb(49, 49, 49);
-    display: block;
-    border-bottom: 5px solid rgb(77, 77, 77);
+    display: flex;
+    color: whitesmoke;
+    margin:0 auto;
+    width: 700px;
+    padding: 70px;
 }
 #txtcontrol
 {
@@ -177,6 +178,14 @@ margin: 0px auto;
     -moz-box-shadow: 0px 0px 70px 8px rgba(167, 167, 167);
     box-shadow: 0px 0px 70px 8px rgb(82, 82, 82);
     
+}
+h4
+{
+    color: whitesmoke;
+}
+.lorem
+{
+    color: whitesmoke;
 }
 #txteasy
 {
