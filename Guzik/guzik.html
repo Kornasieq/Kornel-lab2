@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="guzik.css">
+    <title>sushi</title>
+    <script>
+        var s = false;
+        function toggleAnimation() 
+        {
+        if (s === false) 
+        {
+        document.getElementById("animation1").setAttribute("class","animationBox-Top");
+        document.getElementById("animation2").setAttribute("class","animationBox-Bottom");
+        s = true;
+    }
+     else
+     {
+document.getElementById("animation2").setAttribute("class","animationBox-Top");
+document.getElementById("animation1").setAttribute("class","animationBox-Bottom");
+ s = false;
+}
+}
+    </script>
+</head>
+<body>
+    <animation-panel id="offer-swapping">
+        <div id="animation1" class="animationBox" >
+            <h3>Wege</h3>
+            <ul>
+                <li>ryż</li>
+                <li>ogórek</li>
+                <li>marchew</li>
+                <li>por</li>
+                <li>wasabi</li>
+            </ul>
+            <div class="cena"><p>15zł/10szt.</p></div>
+            <div class="guzikzamow">zamów</div>
+        </div>
+        <div id="animation2" class="animationBox">
+            <h3>Rybne</h3>
+            <ul>
+                <li>ryż</li>
+                <li>łosoś</li>
+                <li>marchew</li>
+                <li>wasabi</li>
+            </ul>
+            <div class="cena"><p>20zł/10szt</p></div>
+            <div class="guzikzamow">zamów</div>
+        </div>
+    </animation-panel>
+    <div class="Guzikzmiany" onclick="toggleAnimation()"><p>wybierz</p></div>
+</body>
+</html>
