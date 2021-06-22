@@ -17,6 +17,10 @@ section
 {
     background-color: black;
 }
+a
+{
+    font-size: 13px;
+}
 #nav
 {
     height: 63px;

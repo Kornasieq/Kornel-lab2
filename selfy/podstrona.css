@@ -1,0 +1,14 @@
+.zdj4
+{
+    margin: 0px auto;
+}
+.zdj4 img
+{
+    box-sizing: border-box;
+    border: 7px solid white;
+    width: 100%;
+}
+h4
+{
+    font-size: 26px;
+}

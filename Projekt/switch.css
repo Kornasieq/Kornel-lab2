@@ -17,6 +17,10 @@ section
 {
     background-color:whitesmoke
 }
+a
+{
+    font-size: 13px;
+}
 #nav
 {
     height: 63px;

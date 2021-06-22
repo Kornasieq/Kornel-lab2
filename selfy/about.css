@@ -22,11 +22,12 @@ nav
     justify-content: flex-end;
     display: none;
 }
-select
+.select2
 {
     overflow: visible;
     width: 100%;
 }
+
 .naglowek
 {
     padding-left: 12.5px;
@@ -176,7 +177,7 @@ nav
     flex-wrap: nowrap;
     justify-content: flex-end;
 }
-select
+.select2
 {
     overflow: visible;
     width: 100%;

@@ -33,6 +33,14 @@ section
   flex-direction: row;
   align-items: center;
 }
+ul#menu
+{
+    margin: 0px auto;
+}
+a
+{
+    font-size:13px;
+}
 #menu a:hover
 {
     border-bottom: 2px solid rgb(229, 249, 255);

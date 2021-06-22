@@ -81,6 +81,28 @@ header img
     display: flex;
     padding-left: 20px;
 }
+button 
+{
+    background-color: none  ;
+}
+.active-button a
+ {
+
+}
+.active-button {
+    background-color: #ffc000;
+}
+.menunav button:hover {
+    background-color: #656a6f;
+}
+.menunav button {
+    border-style: none;
+    padding: 8px;
+    border-radius: 4px;
+}
+.menunav a {
+    text-decoration: none;
+}
 nav
 {
     list-style: none;
@@ -89,6 +111,10 @@ nav
     flex-wrap: nowrap;
     justify-content: flex-end;
     display: none;
+}
+.menunav a {
+    color: black;
+    font-size: 18px;
 }
 .border
 {
