@@ -85,24 +85,7 @@ button
 {
     background-color: none  ;
 }
-.active-button a
- {
 
-}
-.active-button {
-    background-color: #ffc000;
-}
-.menunav button:hover {
-    background-color: #656a6f;
-}
-.menunav button {
-    border-style: none;
-    padding: 8px;
-    border-radius: 4px;
-}
-.menunav a {
-    text-decoration: none;
-}
 nav
 {
     list-style: none;
@@ -253,13 +236,6 @@ a.more
         float: left;
         padding-left: 30px;
     }
-    #select
-{
-    float: right;
-    overflow: visible;
-    width: 15%;
-    margin-right: 30px;
-}
 #idiots
 {
     padding-top: 100px;
@@ -272,6 +248,41 @@ a.more
 } 
 @media screen and (min-width: 800px) 
 {
+    .menunav li {
+        padding: 10px;
+    }
+    
+    button {
+        background-color: #A5ADB0;
+    }
+    
+    .menunav a {
+        text-decoration: none;
+    }
+    
+    .menunav button {
+        border-style: none;
+        padding: 8px;
+        border-radius: 4px;
+    }
+    
+    .menunav a {
+        color: black;
+        font-size: 18px;
+    }
+    
+    .active-button 
+    {
+        background-color: #ffc000;
+    }
+    
+    .active-button a {
+        color: white;
+    }
+    
+    .menunav button:hover {
+        background-color: #656a6f;
+    }
     .idiotspre
 {
     padding-right: 250px;

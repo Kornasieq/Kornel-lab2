@@ -192,12 +192,13 @@ blockquote
 }
 .malysz
 {
-    padding-top: 20px;
+    padding-top: 10px;
     color: #656a6f;
     font-size: 17px;
 }
 .malysz1
 {
+    padding-bottom: -20px;
     padding-top: 5px;
     color: #656a6f;
     font-size: 17px;
@@ -355,6 +356,11 @@ width: 410px;
 }
 @media screen and (min-width: 800px) 
 {
+.boczny
+{
+padding-left: 40px;
+border-left: 1px solid grey;
+}
 .select1
 {
     overflow: visible;
@@ -428,7 +434,7 @@ width: 410px;
     .mainnn
      {
         display: grid;
-        grid-template-columns: auto 260px;
+        grid-template-columns: auto 320px;
     }
 
     .grid-left1 

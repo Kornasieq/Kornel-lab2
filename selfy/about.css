@@ -164,6 +164,41 @@ height: 19px;
 }
 @media screen and (min-width: 800px)
 {
+    .menunav li {
+        padding: 10px;
+    }
+    
+    button {
+        background-color:rgb(226, 226, 226);
+    }
+    
+    .menunav a {
+        text-decoration: none;
+    }
+    
+    .menunav button {
+        border-style: none;
+        padding: 8px;
+        border-radius: 4px;
+    }
+    
+    .menunav a {
+        color: black;
+        font-size: 18px;
+    }
+    
+    .active-button 
+    {
+        background-color: #ffc000;
+    }
+    
+    .active-button a {
+        color: white;
+    }
+    
+    .menunav button:hover {
+        background-color: #656a6f;
+    }
     html
 {
     padding-left: 32.5px;
