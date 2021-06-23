@@ -216,14 +216,6 @@ h4
 {
     color: rgb(224, 224, 224);
 }
-#photoins
-{
-    padding-top: 20px;
-    border-top: black;
-    width: 659px;
-    padding-top: 80px;
-    justify-content: center;
-}
 #stopka
 {
     padding-top: 200px;
@@ -270,8 +262,8 @@ h4
 {
     justify-content: center;
         margin:0px auto;
-        padding-top: 80px;
-        width: 800px;
+        width: 639px;
+        padding: 0px;
 }
 #stopka
 {

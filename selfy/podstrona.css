@@ -12,6 +12,10 @@ body
     border: 7px solid white;
     width: 100%;
 }
+b
+{
+    font-size: 30px;
+}
 h4
 {
     font-size: 26px;
@@ -41,6 +45,13 @@ p
     margin: 0px auto;
     padding-bottom: 20px;
     font-size: 16px;
+}
+p8
+{
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 21px;
+font-weight: 600;
+
 }
 .square3
 {
@@ -96,4 +107,48 @@ li::marker
 {
     padding-top: 70px;
     padding-bottom: 50px;
+}
+@media screen and (min-width: 800px) 
+{
+    main {
+        display: grid;
+        grid-template-columns: auto 300px;
+    }
+
+    .grid-left {
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+
+    .grid-right {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        margin-left: 25px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .flexy1
+    {
+        width: 90%;
+    }
+.flexy
+{
+    width: 100%;
+    padding-right: 50px;
+    display: block;
+}
+.flexypre
+{
+    display: flex;
+}
+.james
+{
+    padding-top: 10px;
+    font-size: 20px ;
+    padding-left: 10px;
+}
+b
+{
+    font-size: 30px;
 }
